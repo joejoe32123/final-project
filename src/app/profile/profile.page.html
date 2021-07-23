@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center"><strong>Account</strong></ion-title>
+  </ion-toolbar>
+  <ion-button class="btn" routerLink="/login" color="danger">Login/SignUp</ion-button>
+</ion-header>
+
+<ion-content>
+
+  <div class="user">
+    <h3>UserName</h3>
+    <br>
+    <div class="points">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h6><a href="#">Coupons</a></h6>
+        </ion-col>
+        <ion-col>
+          <h6><a href="#">Points</a></h6>
+        </ion-col>
+        <ion-col class="wallet">
+          <ion-label><a href>Wallet</a></ion-label>
+          <ion-icon class="icon" name="wallet-outline"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    </div>
+  </div>
+
+  <div class="order">
+    <h2>My Orders</h2>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <h6><a href="#">Unpaid</a></h6>
+        </ion-col>
+        <ion-col>
+          <h6><a href="#">Processing</a></h6>
+        </ion-col>
+        <ion-col>
+          <h6><a href="#">Shipped</a></h6>
+        </ion-col>
+        <ion-col>
+          <h6><a href="#">Returns</a></h6>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="wish">
+    <h3 class="ion-text-center"><strong>Wishlist</strong></h3>
+    <div class="fav">
+      <h5 class="ion-text-center">Add your Favorite in your wishlist</h5>
+    </div>
+  </div>
+
+</ion-content>

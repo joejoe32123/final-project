@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center"><strong>Login</strong></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content">
+    <ion-item>
+      <ion-input type="Email" [(ngModel)]="form.Email_Adress"placeholder="Email Address" class="label"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+      <ion-input type="Password" [(ngModel)]="form.Password" placeholder="Password" class="label"></ion-input>
+    </ion-item>
+  </div>
+    <div>
+      <ion-button (click)="print()"  expand="block" (click)="showAlert()" routerLink="" class="login" color="danger">LOGIN</ion-button>
+      <p class="frgt">Forgot Password?</p>
+      <p class="up">Sign Up</p>
+    </div>
+    <br>
+    <p class="or">OR</p>
+    <div>
+      <ion-button expand="block" class="google" color="success"><ion-icon name="logo-google" slot="start"></ion-icon>Countinue Using Google</ion-button>
+      <ion-button expand="block" class="facebook"><ion-icon name="logo-facebook" slot="start"></ion-icon>Countinue Using Facebook</ion-button>
+    </div>
+      
+    
+    
+     
+            
+
+
+         
+     
+
+
+  
+
+</ion-content>
